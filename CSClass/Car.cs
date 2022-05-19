@@ -7,6 +7,11 @@ namespace CSClass
         int carNumber;
         DateTime inTime;
         DateTime outTime;
+        private int i;
+
+        public Car()
+        {
+        }
 
         public void SetInTime()
         {
