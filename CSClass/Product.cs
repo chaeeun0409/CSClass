@@ -3,7 +3,7 @@
      class Product
     {
         public static string MADEIN = "Korea";
-
+        
         /// <summary>
         /// 상품 이름
         /// </summary>

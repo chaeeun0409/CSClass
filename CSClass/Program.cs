@@ -58,6 +58,46 @@ namespace CSClass
             Product productC = new Product() { price=5000, name = "당근케이크"};
             Product productD = new Product() { price=6000 };
 
+            List<Student> students = new List<Student>()
+            {
+                 new Student() { name = "이채은", grade = 1 },
+                 new Student() { name = "윤서연", grade = 3 },
+                 new Student() { name = "김지호", grade = 2 },
+                 new Student() { name = "이자두", grade = 3 },
+
+            };
+
+            /*   foreach (var item in students)
+               {
+                   if(item.grade > 2)
+                   {
+                       students.Remove(item);
+                   }`
+
+          *//*     }*//*
+            for (int i = 0; i < students.Count; i++)
+            {
+                if (students[i].grade > 2)
+                {
+                    students.RemoveAt(i);
+                    //students.Remove(students[i]);
+                    i--;
+                }
+            }*/
+            for (int i = students.Count-1; i >=0; i--)
+            {
+                if (students[i].grade > 2)
+                {
+                    students.RemoveAt(i);
+                }
+             
+            }
+            foreach (var item in students)
+            {
+                Console.WriteLine(item);
+
+            }
+
         }
     }
 }
