@@ -21,5 +21,9 @@ namespace CSClass
             value = 99;
             Console.WriteLine("Sample() 정적 생성자 호출!!");
         }*/
+        ~Sample()
+        {
+            Console.WriteLine("샘플 객체가 소멸 되었습니다!!");
+        }
     }
 }
