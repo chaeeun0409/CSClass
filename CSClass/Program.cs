@@ -118,6 +118,26 @@ namespace CSClass
             Console.WriteLine(MyMath.Abs(2233456789L));
             Console.WriteLine(MyMath.Abs(-2233456789L));
 
+            Product product1 = new Product("감자", 3000);
+            Product product2 = new Product("고구마", 5000);
+            Console.WriteLine(Product.counter + " 개 생성되었습니다.");
+
+            Console.WriteLine("첫 번째 위치");
+            Console.WriteLine(Sample.value);
+            Console.WriteLine("두 번째 위치");
+            Sample sample = new Sample();
+            Console.WriteLine("세 번째 위치");
+
+            /*
+              Console.WriteLine("첫 번째 위치");
+            Console.WriteLine(Sample.value);
+            Console.WriteLine("두 번째 위치");
+            Sample sample = new Sample();
+            Console.WriteLine("세 번째 위치");
+             */
+
+
+
 
 
         }
