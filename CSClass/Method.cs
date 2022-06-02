@@ -8,7 +8,8 @@ namespace CSClass
 {
     internal class Method
     {
-
+        int instanceVariable = 10;
+        static int classVariable = 10;
        
         public double Multi(int v1, int v2)
         {
@@ -44,6 +45,22 @@ namespace CSClass
             return output;
 
         }
-
+        static public void some()
+        {
+            //Multiply(1,10);
+            //  Console.WriteLine(this.instanceVariable);
+            Console.WriteLine(classVariable);
+        }
+        public static int Abs(int input)
+        {
+            if(input < 0)
+            {
+                return -input;
+            }
+            else
+            {
+                return input;
+            }
+        }
     }
 }
