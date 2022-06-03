@@ -148,6 +148,12 @@ namespace CSClass
             box.Width = -10;
             Console.WriteLine("box의 면적은 :" + box.Area);
 
+            Fibonacci fibo = new Fibonacci();
+            Console.WriteLine(Fibonacci.Get(1));
+            Console.WriteLine(Fibonacci.Get(100));
+            Console.WriteLine(Fibonacci.Get(10000));
+
+
 
 
         }
