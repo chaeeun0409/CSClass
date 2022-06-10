@@ -9,5 +9,10 @@ namespace CSClass
 
             Console.WriteLine("냐옹냐옹 웁니다");
         }
+
+        internal void Bark()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
