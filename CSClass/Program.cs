@@ -173,6 +173,17 @@ namespace CSClass
                 if(cat != null ) { cat.Meow(); }
             
             }
+            Child childA = new Child();
+            Child childB = new Child("string");
+
+            Parent parent = new Parent();
+            Child child = new Child();
+            Console.WriteLine("p counter :" + Parent.counter + "/c counter:" + Child.counter);
+            parent.CountParent();
+            Console.WriteLine("p counter :" + Parent.counter + "/c counter:" + Child.counter);
+            child.CountParent();
+            Console.WriteLine("p counter :" + Parent.counter + "/c counter:" + Child.counter);
+
         }
     }
 }
