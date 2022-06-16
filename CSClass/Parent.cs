@@ -4,6 +4,7 @@ namespace CSClass
     public class Parent
     {
         public static int counter = 0;
+        public int variable = 273;
         public void CountParent()
         {
             Parent.counter++;

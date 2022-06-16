@@ -184,6 +184,14 @@ namespace CSClass
             child.CountParent();
             Console.WriteLine("p counter :" + Parent.counter + "/c counter:" + Child.counter);
 
+            //새도잉
+            int number = 20;
+            Console.WriteLine(number);
+
+            //하이딩
+            Child c = new Child();
+            Console.WriteLine(c.variable);
+
         }
     }
 }
